@@ -1,0 +1,348 @@
+
+article {
+    padding: 20px;
+}
+article p {
+    font-size: 15pt;
+}
+.content_slider-b input[type="button"] {
+    padding: 20px;
+    background-color: white;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.content_slider-b input[type="button"]:hover{
+    color: white;
+    background-color: black;
+}
+
+#container-slider-b{
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+#slider-b {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+}
+#slider-b li {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute !important;
+    top: 0 !important;
+    left: 0 !important;
+    width: 100%;
+    height: 100%;
+    display: block;
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -ms-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
+    z-index: -1;
+    opacity: 0;
+}
+#container-slider-b .arrowPrev, #container-slider-b .arrowNext{
+    font-size: 30pt;
+    color: rgba(204, 204, 204, 0.65);
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    z-index: 2; 
+}
+#container-slider-b .arrowNext {
+    left: initial;
+    right: 50px !important;
+}
+.content_slider.b{
+    padding: 15px 30px;
+    color: #FFF;
+    width: 100%;
+    height: 100%;
+}
+.content_slider-b div{
+    text-align: left;
+}
+.content_slider-b h2{
+    font-family: 'arial';
+    font-size: 25pt;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.content_slider-b p {
+    font-size: 13pt;
+    font-family: 'arial';
+    color: #FFF;
+    margin-bottom: 20px;
+}
+#slider li .content_slider-b{
+    background: rgba(0, 0, 0, 0.50);
+    padding: 10px 125px;
+}
+.content_slider-b{
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.btnSlider{
+    color: #FFF;
+    font-size: 15pt;
+    font-family: 'arial';
+    letter-spacing: 1px;
+    padding: 10px 50px;
+    border: 1px solid #CCC;
+    background: rgba(13, 13, 13, 0.55);
+    border-radius: 31px;
+    text-decoration: none;
+    transition: .5s all;
+}
+.btnSlider:hover{
+    background: #111;
+    border: 1px solid #111;
+}
+.listslider-b {
+    position: absolute;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    left: 50%;
+    bottom: 5%;
+    list-style: none;
+    z-index: 2;
+    transform: translateX(-50%);
+}
+.listslider-b li {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.listslider-b li a {
+    background: #CCC;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.item-select-slid {
+    background: #FFF  !important;
+}
+
+@media screen and (max-width: 460px){
+	.content_slider-b h2 {
+	    font-size: 15pt !important;
+	}
+	.content_slider-b p {
+	    font-size: 12pt !important;
+	}
+	#container-slider-b .arrowPrev, #container-slider-b .arrowNext{
+		font-size: 20pt;
+	}
+	#container-slider-b .arrowPrev{
+		left: 15px;
+	}
+	#container-slider-b .arrowNext{
+		right: 15px !important;
+	}
+	
+	#slider-b li .content_slider-b{
+		padding: 10px 35px;
+	}
+	.btnSlider{
+		padding: 10px 30px;
+    	font-size: 10pt;
+	}
+
+}
+
+body,
+html {
+    width: 100%;
+	height: 100%;
+}
+body, p {
+	color: #555; 
+	font: 400 1rem/1.625rem "Montserrat", sans-serif;
+}
+.p-large {
+	font: 400 1.125rem/1.75rem "Montserrat", sans-serif;
+}
+
+.p-small {
+	font: 400 0.875rem/1.5rem "Montserrat", sans-serif;
+}
+
+.p-heading {
+	margin-bottom: 3.75rem;
+}
+h1 {
+	color: #333;
+	font: 700 2.75rem/3.375rem "Montserrat", sans-serif;
+	
+}
+
+h2 {
+	color: #333;
+	font: 700 2.25rem/2.875rem "Montserrat", sans-serif;
+    
+}
+
+h3 {
+	color: #333;
+	font: 700 1.625rem/2.125rem "Montserrat", sans-serif;
+}
+
+h4 {
+	color: #333;
+	font: 700 1.25rem/1.875rem "Montserrat", sans-serif;
+}
+
+h5 {
+	color: #333;
+	font: 700 1.125rem/1.75rem "Montserrat", sans-serif;
+}
+
+h6 {
+	color: #333;
+	font: 700 1rem/1.625rem "Montserrat", sans-serif;
+}
+
+/**************************/
+/*     07. Memoria     */
+/**************************/
+.basic-1 {
+	padding-top: 50px;
+	padding-bottom: 3.5rem;
+	background-color: #fbf9f5;
+}
+
+.basic-1 h2 {
+	margin-bottom: 1.25rem;
+    text-align: center;
+	padding-top: 50px;
+	padding-bottom: 15px;
+}
+
+.basic-1 img {
+	margin-bottom: 2.5rem;
+	border-radius: 0.25rem;
+}
+
+
+
+/***************************/
+/*     08. Description     */
+/***************************/
+.basic-2 {
+	padding-top: 3.5rem;
+	padding-bottom: 2.75rem;
+	background-color: #fbf9f5;
+}
+
+.basic-2 h2 {
+	margin-bottom: 3.75rem;
+	text-align: center;
+}
+
+.basic-2 .li-space-lg li {
+	margin-bottom: 1.375rem;
+}
+
+.basic-2 .list-unstyled .bullet {
+	margin-right: 0.625rem;
+	width: 2.125rem;
+	height: 2.125rem;
+	border-radius: 50%;
+	background-color: #ffbd50;
+	color: #333;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 0.875rem;
+	line-height: 2rem;
+	text-align: center;
+}
+
+
+/*****************************/
+/*     21. Media Queries     */
+/*****************************/	
+/* Min-width width 768px */
+@media (min-width: 768px) {
+    /* Description */
+    .basic-2 h2 {
+        width: 41rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .basic-2 .list-unstyled .bullet {
+        width: 3.25rem;
+        height: 3.25rem;
+        margin-right: 1rem;
+        font-size: 1.375rem;
+        line-height: 3.25rem;
+    }
+    /* end of description */
+}
+/* end of min-width width 768px */
+
+
+/* Min-width width 992px */
+@media (min-width: 992px) {
+    /* Memoria */
+	.basic-1 {
+		padding-bottom: 4.5rem;
+	}
+
+	.basic-1 img {
+		margin-bottom: 0;
+	}
+	/* end of memoria */
+
+
+	/* Description */
+	.basic-2 {
+		padding-top: 4.5rem;
+		padding-bottom: 3.5rem
+	}
+	/* end of description */
+}
+/* end of min-width width 992px */
+
+
+/* Min-width width 1200px */
+@media (min-width: 1200px) {
+    /* Memoria */
+	.basic-1 .text-container {
+		margin-top: 3.125rem;
+		margin-left: 3.5rem;
+	}
+	/* end of memoria */
+
+
+	/* Description */
+	.basic-2 .list-unstyled.first {
+		margin-right: 1.625rem;
+	}
+
+	.basic-2 .list-unstyled.second {
+		margin-left: 1.625rem;
+	}
+	/* end of description */
+}
